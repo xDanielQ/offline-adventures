@@ -1,0 +1,57 @@
+from enum import StrEnum
+
+from pydantic import BaseModel, Field, model_validator
+
+
+class Environment(StrEnum):
+    OUTDOOR = "outdoor"
+    SHELTERED = "sheltered"
+    INDOOR_BRIDGE = "indoor_bridge"
+
+
+class EnergyLevel(StrEnum):
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
+
+
+class Weather(StrEnum):
+    DRY = "dry"
+    LIGHT_RAIN = "light_rain"
+    HEAVY_RAIN = "heavy_rain"
+    STRONG_WIND = "strong_wind"
+    SNOW = "snow"
+    VERY_HOT = "very_hot"
+    VERY_COLD = "very_cold"
+    UNKNOWN = "unknown"
+
+
+class Activity(BaseModel):
+    id: str = Field(pattern=r"^activity_[0-9]{3}$")
+    name: str = Field(min_length=3, max_length=100)
+    environment: Environment
+    minimum_minutes: int = Field(ge=5, le=240)
+    maximum_minutes: int = Field(ge=5, le=240)
+    energy_levels: list[EnergyLevel] = Field(min_length=1)
+    weather: list[Weather] = Field(min_length=1)
+    interests: list[str] = Field(min_length=1)
+    requires_equipment: list[str] = Field(default_factory=list)
+    mission_steps: list[str] = Field(min_length=1, max_length=5)
+    safety_notes: list[str] = Field(default_factory=list)
+    memory_prompts: list[str] = Field(min_length=1, max_length=3)
+
+    @model_validator(mode="after")
+    def validate_duration(self) -> "Activity":
+        if self.minimum_minutes > self.maximum_minutes:
+            raise ValueError(
+                "minimum_minutes cannot exceed maximum_minutes"
+            )
+        return self
+
+
+class ActivityRequest(BaseModel):
+    available_minutes: int = Field(ge=5, le=240)
+    energy_level: EnergyLevel
+    weather: Weather
+    interests: list[str] = Field(default_factory=list)
+    excluded_activity_ids: set[str] = Field(default_factory=set)
