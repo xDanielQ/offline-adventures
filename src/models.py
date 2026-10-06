@@ -55,3 +55,28 @@ class ActivityRequest(BaseModel):
     weather: Weather
     interests: list[str] = Field(default_factory=list)
     excluded_activity_ids: set[str] = Field(default_factory=set)
+
+
+class ActivityRecommendation(BaseModel):
+    activity_id: str = Field(pattern=r"^activity_[0-9]{3}$")
+    reason: str = Field(min_length=10, max_length=300)
+
+
+class RecommendationResult(BaseModel):
+    primary: ActivityRecommendation
+    alternatives: list[ActivityRecommendation] = Field(
+        min_length=2,
+        max_length=2,
+    )
+
+    @model_validator(mode="after")
+    def validate_unique_activity_ids(self) -> "RecommendationResult":
+        identifiers = [
+            self.primary.activity_id,
+            *(item.activity_id for item in self.alternatives),
+        ]
+
+        if len(identifiers) != len(set(identifiers)):
+            raise ValueError("recommended activity IDs must be unique")
+
+        return self

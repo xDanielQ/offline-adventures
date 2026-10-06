@@ -1,0 +1,17 @@
+import os
+
+DEFAULT_OLLAMA_URL = "http:" + "//localhost:11434"
+
+OLLAMA_BASE_URL = os.getenv(
+    "OLLAMA_BASE_URL",
+    DEFAULT_OLLAMA_URL,
+)
+
+OLLAMA_MODEL = os.getenv(
+    "OLLAMA_MODEL",
+    "llama3.1:8b-instruct-q4_K_M",
+)
+
+OLLAMA_TIMEOUT_SECONDS = 60.0
+OLLAMA_CONTEXT_LENGTH = 4096
+OLLAMA_MAX_OUTPUT_TOKENS = 400
