@@ -1,0 +1,9 @@
+Generation method: single pass
+Model: llama3.1:8b-instruct-q4_K_M
+Requested records: 50
+Generated records: 50
+Requested distribution: 30 outdoor, 8 sheltered, 12 indoor_bridge
+Actual distribution: 14 outdoor, 12 sheltered, 24 indoor_bridge
+Duplicate names: detected
+Pydantic validation: passed for individual records
+Catalog validation: failed

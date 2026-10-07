@@ -11,3 +11,6 @@ htmlcov/
 *.sqlite3
 data/memories/
 data/photos/
+
+# Local AI agent configuration
+.agents/

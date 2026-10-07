@@ -1,0 +1,1494 @@
+[
+  {
+    "id": "activity_001",
+    "name": "Walk around the block",
+    "environment": "outdoor",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "photography"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Walk around the block and observe the local flora.",
+      "Take a few photos of the plants and flowers."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flowers were blooming?"
+    ]
+  },
+  {
+    "id": "activity_002",
+    "name": "Visit a local park",
+    "environment": "outdoor",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a park or green space near your home.",
+      "Take a walk and observe the local wildlife."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of birds were singing?"
+    ]
+  },
+  {
+    "id": "activity_003",
+    "name": "Look out the window",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a window with a good view of the outdoors.",
+      "Observe the local wildlife and note any changes."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of birds were seen?"
+    ]
+  },
+  {
+    "id": "activity_004",
+    "name": "Prepare a picnic",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "recreation",
+      "cooking"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Plan a picnic and prepare the food.",
+      "Pack the food and any necessary items."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of food was prepared?"
+    ]
+  },
+  {
+    "id": "activity_005",
+    "name": "Take a photo of a flower",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a flower and take a photo.",
+      "Note the type of flower and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flower was photographed?"
+    ]
+  },
+  {
+    "id": "activity_006",
+    "name": "Visit a local museum",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "history",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local museum and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_007",
+    "name": "Look at a map",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of the local area.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_008",
+    "name": "Prepare a journal entry",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_009",
+    "name": "Take a photo of a tree",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a tree and take a photo.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_010",
+    "name": "Visit a local library",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local library and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  },
+  {
+    "id": "activity_011",
+    "name": "Look at a book",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a book and observe it.",
+      "Note any interesting details."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of book was observed?"
+    ]
+  },
+  {
+    "id": "activity_012",
+    "name": "Prepare a meal",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "cooking",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a meal and prepare it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of meal was prepared?"
+    ]
+  },
+  {
+    "id": "activity_013",
+    "name": "Take a photo of a flowerbed",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a flowerbed and take a photo.",
+      "Note the type of flowers and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flowers were in the bed?"
+    ]
+  },
+  {
+    "id": "activity_014",
+    "name": "Visit a local art museum",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local art museum and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_015",
+    "name": "Look at a map of the local area",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of the local area.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_016",
+    "name": "Prepare a journal entry about a local experience",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_017",
+    "name": "Take a photo of a tree in a park",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a park and a tree to take a photo of.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_018",
+    "name": "Visit a local bookstore",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local bookstore and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  },
+  {
+    "id": "activity_019",
+    "name": "Look at a book about a local topic",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a book about a local topic.",
+      "Observe the book and note any interesting details."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of book was observed?"
+    ]
+  },
+  {
+    "id": "activity_020",
+    "name": "Prepare a meal about a local ingredient",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "cooking",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a meal and prepare it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of meal was prepared?"
+    ]
+  },
+  {
+    "id": "activity_021",
+    "name": "Take a photo of a flower in a garden",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a garden and a flower to take a photo of.",
+      "Note the type of flower and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flower was photographed?"
+    ]
+  },
+  {
+    "id": "activity_022",
+    "name": "Visit a local art gallery",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local art gallery and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_023",
+    "name": "Look at a map of a local park",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of a local park.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_024",
+    "name": "Prepare a journal entry about a local experience",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_025",
+    "name": "Take a photo of a tree in a forest",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a forest and a tree to take a photo of.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_026",
+    "name": "Visit a local library",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local library and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  },
+  {
+    "id": "activity_027",
+    "name": "Look at a book about a local topic",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a book about a local topic.",
+      "Observe the book and note any interesting details."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of book was observed?"
+    ]
+  },
+  {
+    "id": "activity_028",
+    "name": "Prepare a meal about a local ingredient",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "cooking",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a meal and prepare it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of meal was prepared?"
+    ]
+  },
+  {
+    "id": "activity_029",
+    "name": "Take a photo of a flower in a garden",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a garden and a flower to take a photo of.",
+      "Note the type of flower and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flower was photographed?"
+    ]
+  },
+  {
+    "id": "activity_030",
+    "name": "Visit a local art museum",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local art museum and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_031",
+    "name": "Look at a map of a local park",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of a local park.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_032",
+    "name": "Prepare a journal entry about a local experience",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_033",
+    "name": "Take a photo of a tree in a forest",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a forest and a tree to take a photo of.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_034",
+    "name": "Visit a local library",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local library and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  },
+  {
+    "id": "activity_035",
+    "name": "Look at a book about a local topic",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a book about a local topic.",
+      "Observe the book and note any interesting details."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of book was observed?"
+    ]
+  },
+  {
+    "id": "activity_036",
+    "name": "Prepare a meal about a local ingredient",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "cooking",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a meal and prepare it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of meal was prepared?"
+    ]
+  },
+  {
+    "id": "activity_037",
+    "name": "Take a photo of a flower in a garden",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a garden and a flower to take a photo of.",
+      "Note the type of flower and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flower was photographed?"
+    ]
+  },
+  {
+    "id": "activity_038",
+    "name": "Visit a local art museum",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local art museum and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_039",
+    "name": "Look at a map of a local park",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of a local park.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_040",
+    "name": "Prepare a journal entry about a local experience",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_041",
+    "name": "Take a photo of a tree in a forest",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a forest and a tree to take a photo of.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_042",
+    "name": "Visit a local library",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local library and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  },
+  {
+    "id": "activity_043",
+    "name": "Look at a book about a local topic",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a book about a local topic.",
+      "Observe the book and note any interesting details."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of book was observed?"
+    ]
+  },
+  {
+    "id": "activity_044",
+    "name": "Prepare a meal about a local ingredient",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "cooking",
+      "recreation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a meal and prepare it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of food safety and handling."
+    ],
+    "memory_prompts": [
+      "What type of meal was prepared?"
+    ]
+  },
+  {
+    "id": "activity_045",
+    "name": "Take a photo of a flower in a garden",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a garden and a flower to take a photo of.",
+      "Note the type of flower and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of flower was photographed?"
+    ]
+  },
+  {
+    "id": "activity_046",
+    "name": "Visit a local art museum",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local art museum and plan a visit.",
+      "Take notes and observe the exhibits."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of exhibits were seen?"
+    ]
+  },
+  {
+    "id": "activity_047",
+    "name": "Look at a map of a local park",
+    "environment": "sheltered",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "geography"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a map of a local park.",
+      "Observe the layout and note any features."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of features were noted?"
+    ]
+  },
+  {
+    "id": "activity_048",
+    "name": "Prepare a journal entry about a local experience",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 20,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "reflection"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Plan a journal entry and write it.",
+      "Note any important details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of entry was written?"
+    ]
+  },
+  {
+    "id": "activity_049",
+    "name": "Take a photo of a tree in a forest",
+    "environment": "outdoor",
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "nature"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Find a forest and a tree to take a photo of.",
+      "Note the type of tree and any other details."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of tree was photographed?"
+    ]
+  },
+  {
+    "id": "activity_050",
+    "name": "Visit a local library",
+    "environment": "indoor_bridge",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "learning"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local library and plan a visit.",
+      "Take notes and observe the books."
+    ],
+    "safety_notes": [
+      "Be aware of your surroundings and avoid any hazards."
+    ],
+    "memory_prompts": [
+      "What type of books were seen?"
+    ]
+  }
+]

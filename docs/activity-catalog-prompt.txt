@@ -1,0 +1,148 @@
+You are designing a controlled activity catalog for an open-source project called Offline Adventures.
+
+PROJECT PURPOSE
+
+Offline Adventures is a local, privacy-first application for the Hacktoberfest 2026 "Touch Grass" challenge.
+
+The application should:
+- reduce decision fatigue;
+- encourage people to engage with their immediate surroundings;
+- prefer outdoor activities when conditions are suitable;
+- provide sheltered or indoor bridge activities during unsuitable weather;
+- create opportunities to record small local memories;
+- avoid exact locations, GPS, live weather, cloud services, and personal data.
+
+TASK
+
+Create exactly 50 genuinely different activities.
+
+Required distribution:
+- exactly 30 outdoor activities;
+- exactly 8 sheltered activities;
+- exactly 12 indoor_bridge activities.
+
+Indoor bridge activities must connect to:
+- a previous local experience;
+- observation through a window or sheltered place;
+- preparation for a future outdoor activity;
+- creation or organization of local memories.
+
+Do not pad the catalog with superficial variants.
+Two activities are duplicates if they have essentially the same goal and only change a color, season, object, duration, participant, or equipment item.
+
+SAFETY BOUNDARIES
+
+Do not include:
+- wild-food foraging;
+- tasting unknown plants or objects;
+- entering private or restricted property;
+- isolated nighttime exploration;
+- swimming, boating, kayaking, climbing, or dangerous terrain;
+- medical or fitness advice;
+- wildlife handling or feeding;
+- collecting protected plants;
+- photographing identifiable people without permission;
+- activities that require exact addresses or GPS;
+- activities that assume current weather conditions;
+- activities that require specialist knowledge for safe completion.
+
+Use neutral safety language.
+Do not claim that an activity is completely safe.
+Do not invent local places, routes, landmarks, opening hours, or distances.
+
+ALLOWED ENUM VALUES
+
+environment:
+- outdoor
+- sheltered
+- indoor_bridge
+
+energy_levels:
+- low
+- medium
+- high
+
+weather:
+- dry
+- light_rain
+- heavy_rain
+- strong_wind
+- snow
+- very_hot
+- very_cold
+- unknown
+
+IDENTIFIERS
+
+Use identifiers from activity_001 through activity_050.
+Each identifier and name must be unique.
+
+OUTPUT SCHEMA
+
+Return one JSON array only.
+Do not use Markdown.
+Do not include an introduction, conclusion, explanation, or summary.
+
+Each array element must match this structure:
+
+{
+  "id": "activity_001",
+  "name": "Short unique English name",
+  "environment": "outdoor",
+  "minimum_minutes": 20,
+  "maximum_minutes": 45,
+  "energy_levels": [
+    "low",
+    "medium"
+  ],
+  "weather": [
+    "dry",
+    "light_rain"
+  ],
+  "interests": [
+    "nature",
+    "photography",
+    "observation"
+  ],
+  "requires_equipment": [
+    "phone_or_camera"
+  ],
+  "mission_steps": [
+    "First concrete step.",
+    "Second concrete step.",
+    "Third concrete step."
+  ],
+  "safety_notes": [
+    "One specific and proportionate safety boundary."
+  ],
+  "memory_prompts": [
+    "One question that helps preserve a factual memory."
+  ]
+}
+
+VALIDATION RULES
+
+- minimum_minutes must be between 5 and 240;
+- maximum_minutes must be between 5 and 240;
+- minimum_minutes cannot exceed maximum_minutes;
+- energy_levels must contain at least one allowed value;
+- weather must contain at least one allowed value;
+- interests must contain between 1 and 5 short lowercase tags;
+- requires_equipment may be empty;
+- mission_steps must contain between 1 and 5 concrete instructions;
+- safety_notes must contain at least one item;
+- memory_prompts must contain between 1 and 3 questions;
+- all user-facing text must be in English;
+- the JSON must be valid as a complete document.
+
+QUALITY CHECK BEFORE RETURNING
+
+Before returning the JSON:
+1. Count the records and verify there are exactly 50.
+2. Verify the distribution is 30 outdoor, 8 sheltered, and 12 indoor_bridge.
+3. Verify there are no duplicate IDs.
+4. Verify there are no duplicate names.
+5. Remove semantically duplicated activities.
+6. Verify every value uses the allowed enums.
+7. Verify every activity has a clear link to local surroundings or local memories.
+8. Verify the response contains only the JSON array.

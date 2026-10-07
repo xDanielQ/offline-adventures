@@ -1,0 +1,201 @@
+You are designing a controlled activity catalog for an open-source project called Offline Adventures.
+
+PROJECT PURPOSE
+
+Offline Adventures is a local, privacy-first application for the Hacktoberfest 2026 "Touch Grass" challenge.
+
+The application should:
+- reduce decision fatigue;
+- encourage people to engage with their immediate surroundings;
+- prefer outdoor activities when conditions are suitable;
+- create opportunities to record small local memories;
+- avoid exact locations, GPS, live weather, cloud services, and personal data.
+
+TASK
+
+Create exactly 10 genuinely different outdoor activities.
+
+Every record must use:
+
+"environment": "outdoor"
+
+Do not create sheltered or indoor_bridge activities.
+
+Use exactly these identifiers:
+- activity_001
+- activity_002
+- activity_003
+- activity_004
+- activity_005
+- activity_006
+- activity_007
+- activity_008
+- activity_009
+- activity_010
+
+Use each identifier exactly once.
+
+Do not pad the catalog with superficial variants.
+
+Two activities are semantic duplicates when they have essentially the same purpose and differ only by:
+- color;
+- season;
+- object;
+- duration;
+- participant;
+- equipment;
+- the thing being photographed.
+
+Make the activities meaningfully different in their goal, method, or memory outcome.
+
+DIVERSITY REQUIREMENTS
+
+The 10 activities should collectively cover different types of engagement, such as:
+- walking;
+- visual observation;
+- listening;
+- drawing or writing;
+- nature observation;
+- architecture or public-space observation;
+- a family or cooperative mission;
+- a practical community observation;
+- seasonal awareness;
+- creation of a factual local memory.
+
+Do not turn most of the catalog into photography activities.
+
+SAFETY BOUNDARIES
+
+Do not include:
+- wild-food foraging;
+- tasting unknown plants or objects;
+- entering private or restricted property;
+- isolated nighttime exploration;
+- swimming, boating, kayaking, climbing, or dangerous terrain;
+- medical or fitness advice;
+- wildlife handling or feeding;
+- collecting protected plants;
+- photographing identifiable people without permission;
+- activities requiring exact addresses or GPS;
+- activities assuming current weather conditions;
+- activities requiring specialist knowledge for safe completion.
+
+Use neutral and proportionate safety language.
+
+Do not claim that any activity is completely safe.
+
+Do not invent:
+- local places;
+- routes;
+- landmarks;
+- opening hours;
+- distances;
+- weather conditions.
+
+ALLOWED ENUM VALUES
+
+environment:
+- outdoor
+
+energy_levels:
+- low
+- medium
+- high
+
+weather:
+- dry
+- light_rain
+- heavy_rain
+- strong_wind
+- snow
+- very_hot
+- very_cold
+- unknown
+
+OUTPUT FORMAT
+
+Return one JSON object only.
+
+The object must contain exactly one top-level property named "activities".
+
+The "activities" property must contain an array of exactly 10 activity records.
+
+Do not use Markdown.
+
+Do not include:
+- an introduction;
+- a conclusion;
+- explanations outside the records;
+- comments;
+- a summary.
+
+The complete output must follow this structure:
+
+{
+  "activities": [
+    {
+      "id": "activity_001",
+      "name": "Short unique English name",
+      "environment": "outdoor",
+      "minimum_minutes": 20,
+      "maximum_minutes": 45,
+      "energy_levels": [
+        "low",
+        "medium"
+      ],
+      "weather": [
+        "dry",
+        "light_rain"
+      ],
+      "interests": [
+        "nature",
+        "observation"
+      ],
+      "requires_equipment": [],
+      "mission_steps": [
+        "First concrete step.",
+        "Second concrete step.",
+        "Third concrete step."
+      ],
+      "safety_notes": [
+        "One specific and proportionate safety boundary."
+      ],
+      "memory_prompts": [
+        "One question that preserves a factual memory?"
+      ]
+    }
+  ]
+}
+
+VALIDATION RULES
+
+For every activity:
+- id must use the assigned identifier;
+- name must be unique;
+- name must describe a meaningfully distinct activity;
+- environment must be outdoor;
+- minimum_minutes must be between 5 and 240;
+- maximum_minutes must be between 5 and 240;
+- minimum_minutes cannot exceed maximum_minutes;
+- energy_levels must contain at least one allowed value;
+- weather must contain at least one allowed value;
+- interests must contain between 1 and 5 short lowercase tags;
+- requires_equipment may be empty;
+- mission_steps must contain between 1 and 5 concrete instructions;
+- safety_notes must contain at least one item;
+- memory_prompts must contain between 1 and 3 questions;
+- all user-facing text must be in English.
+
+QUALITY CHECK BEFORE RETURNING
+
+Before returning the JSON:
+1. Verify there are exactly 10 activity records.
+2. Verify every environment is outdoor.
+3. Verify IDs run from activity_001 through activity_010.
+4. Verify each ID appears exactly once.
+5. Verify all names are unique.
+6. Remove semantic duplicates.
+7. Verify that photography is not the dominant activity type.
+8. Verify every activity connects to local surroundings.
+9. Verify every activity can produce a factual local memory.
+10. Verify the response contains only the JSON object.

@@ -9,6 +9,19 @@ def valid_activity() -> dict:
         "id": "activity_001",
         "name": "Seasonal color walk",
         "environment": "outdoor",
+        "activity_types": [
+            "walking",
+            "photography",
+        ],
+        "location_types": [
+            "neighborhood",
+            "park",
+        ],
+        "group_types": [
+            "solo",
+            "couple",
+            "family",
+        ],
         "minimum_minutes": 20,
         "maximum_minutes": 45,
         "energy_levels": ["low", "medium"],

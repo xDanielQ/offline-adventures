@@ -1,0 +1,2462 @@
+[
+  {
+    "id": "activity_001",
+    "name": "Nature sound walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "nature",
+      "relaxation"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "forest_path"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "walking",
+      "listening",
+      "mindfulness"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Choose a familiar route or green space.",
+      "Walk without headphones and pause at three points.",
+      "Notice and remember one sound from each point."
+    ],
+    "safety_notes": [
+      "Stay aware of traffic, cyclists, and other path users."
+    ],
+    "memory_prompts": [
+      "Which sound best captured the place today?"
+    ]
+  },
+  {
+    "id": "activity_002",
+    "name": "Public art discovery walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "culture",
+      "creative"
+    ],
+    "location_types": [
+      "neighborhood",
+      "public_square",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "culture",
+      "walking",
+      "photography"
+    ],
+    "requires_equipment": [
+      "phone_or_notebook_optional"
+    ],
+    "mission_steps": [
+      "Walk through a familiar public area.",
+      "Look for murals, sculptures, decorated walls, or unusual design details.",
+      "Photograph or describe one favorite piece."
+    ],
+    "safety_notes": [
+      "Observe from public areas and do not climb on installations."
+    ],
+    "memory_prompts": [
+      "Which artwork or detail would you like to see again?"
+    ]
+  },
+  {
+    "id": "activity_003",
+    "name": "Wildflower color hunt",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "photography",
+      "creative"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "forest_path"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "observation",
+      "photography",
+      "colors"
+    ],
+    "requires_equipment": [
+      "phone_or_camera_optional"
+    ],
+    "mission_steps": [
+      "Find a public green area with flowering plants.",
+      "Look for five different flower colors or shapes.",
+      "Photograph or note the most unusual example without picking it."
+    ],
+    "safety_notes": [
+      "Leave plants in place and remain on permitted paths."
+    ],
+    "memory_prompts": [
+      "Which flower color or shape was most memorable?"
+    ]
+  },
+  {
+    "id": "activity_004",
+    "name": "Casual bird watching",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "relaxation"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "garden",
+      "forest_path"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain",
+      "snow"
+    ],
+    "interests": [
+      "nature",
+      "birds",
+      "listening",
+      "observation"
+    ],
+    "requires_equipment": [
+      "binoculars_optional"
+    ],
+    "mission_steps": [
+      "Choose a comfortable public observation point.",
+      "Watch or listen for birds for ten minutes.",
+      "Note colors, movement, calls, or behavior without needing to identify species."
+    ],
+    "safety_notes": [
+      "Keep distance from birds and nests, and do not feed wildlife."
+    ],
+    "memory_prompts": [
+      "What bird behavior or sound caught your attention?"
+    ]
+  },
+  {
+    "id": "activity_005",
+    "name": "Local history detail walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "culture",
+      "photography"
+    ],
+    "location_types": [
+      "neighborhood",
+      "public_square",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 75,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "history",
+      "architecture",
+      "walking",
+      "photography"
+    ],
+    "requires_equipment": [
+      "phone_or_notebook_optional"
+    ],
+    "mission_steps": [
+      "Choose a familiar public route.",
+      "Look for old signs, dates, materials, plaques, or building details.",
+      "Record one detail you had never noticed before."
+    ],
+    "safety_notes": [
+      "Observe from public space and do not enter restricted property."
+    ],
+    "memory_prompts": [
+      "Which detail made you curious about the area's past?"
+    ]
+  },
+  {
+    "id": "activity_006",
+    "name": "Seasonal market visit",
+    "environment": "outdoor",
+    "activity_types": [
+      "social",
+      "relaxation",
+      "culture"
+    ],
+    "location_types": [
+      "market"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "food",
+      "culture",
+      "social",
+      "seasonal"
+    ],
+    "requires_equipment": [
+      "shopping_bag_optional"
+    ],
+    "mission_steps": [
+      "Visit a legally operating local market or outdoor stall area.",
+      "Notice seasonal products, colors, and displays.",
+      "Optionally choose one legally sold item to try later."
+    ],
+    "safety_notes": [
+      "Follow market rules and buy or sample only products offered by vendors."
+    ],
+    "memory_prompts": [
+      "Which seasonal product or display stood out?"
+    ]
+  },
+  {
+    "id": "activity_007",
+    "name": "Park picnic mission",
+    "environment": "outdoor",
+    "activity_types": [
+      "social",
+      "relaxation",
+      "games"
+    ],
+    "location_types": [
+      "park",
+      "garden"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "food",
+      "relaxation",
+      "games",
+      "social"
+    ],
+    "requires_equipment": [
+      "picnic_items"
+    ],
+    "mission_steps": [
+      "Choose a familiar public green space.",
+      "Bring a simple snack or drink.",
+      "Add one small game, conversation prompt, or observation challenge."
+    ],
+    "safety_notes": [
+      "Follow local rules and take all belongings and waste home."
+    ],
+    "memory_prompts": [
+      "What made this picnic different from eating indoors?"
+    ]
+  },
+  {
+    "id": "activity_008",
+    "name": "Community garden visit",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "gardening",
+      "relaxation"
+    ],
+    "location_types": [
+      "garden",
+      "park"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "gardening",
+      "plants",
+      "nature",
+      "community"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Visit a publicly accessible garden, allotment display, or planted park area.",
+      "Notice three planting ideas or combinations.",
+      "Record one idea that could inspire a future gardening activity."
+    ],
+    "safety_notes": [
+      "Respect access rules and do not touch or harvest plants without permission."
+    ],
+    "memory_prompts": [
+      "Which planting idea would you like to remember?"
+    ]
+  },
+  {
+    "id": "activity_009",
+    "name": "Street texture photography",
+    "environment": "outdoor",
+    "activity_types": [
+      "photography",
+      "creative",
+      "walking"
+    ],
+    "location_types": [
+      "neighborhood",
+      "public_square",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "textures",
+      "architecture",
+      "walking"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Choose a familiar public route.",
+      "Photograph five textures such as brick, wood, metal, glass, or stone.",
+      "Select the image that best represents the area."
+    ],
+    "safety_notes": [
+      "Photograph objects and surfaces, not identifiable people or private interiors."
+    ],
+    "memory_prompts": [
+      "Which texture would help you recognize this place later?"
+    ]
+  },
+  {
+    "id": "activity_010",
+    "name": "Local memory mapping walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "creative",
+      "culture"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "memory",
+      "walking",
+      "mapping",
+      "culture"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Walk through a familiar public area.",
+      "Choose three places connected with ordinary personal memories.",
+      "Record broad labels and short notes without exact addresses."
+    ],
+    "safety_notes": [
+      "Do not record private addresses or sensitive personal details."
+    ],
+    "memory_prompts": [
+      "Which place brought back the clearest memory?"
+    ]
+  },
+  {
+    "id": "activity_011",
+    "name": "Easy neighborhood run",
+    "environment": "outdoor",
+    "activity_types": [
+      "running"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "running",
+      "movement",
+      "outdoors"
+    ],
+    "requires_equipment": [
+      "comfortable_shoes"
+    ],
+    "mission_steps": [
+      "Choose a familiar route and a personally comfortable pace.",
+      "Run or alternate running and walking for the planned time.",
+      "Finish with an easy walk back."
+    ],
+    "safety_notes": [
+      "Use safe crossings, remain visible, and stop if conditions feel unsuitable."
+    ],
+    "memory_prompts": [
+      "Which part of the route felt most enjoyable today?"
+    ]
+  },
+  {
+    "id": "activity_012",
+    "name": "Familiar-route bicycle ride",
+    "environment": "outdoor",
+    "activity_types": [
+      "cycling"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "forest_path"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "cycling",
+      "exploration",
+      "movement"
+    ],
+    "requires_equipment": [
+      "bicycle",
+      "helmet"
+    ],
+    "mission_steps": [
+      "Choose a familiar permitted cycling route.",
+      "Ride at a comfortable recreational pace.",
+      "Pause once to notice or photograph something usually passed quickly."
+    ],
+    "safety_notes": [
+      "Follow traffic rules, use appropriate safety equipment, and avoid unsafe surfaces."
+    ],
+    "memory_prompts": [
+      "What did you notice because you stopped this time?"
+    ]
+  },
+  {
+    "id": "activity_013",
+    "name": "Family scavenger walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "games",
+      "nature"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "garden"
+    ],
+    "group_types": [
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "family",
+      "games",
+      "walking",
+      "nature"
+    ],
+    "requires_equipment": [
+      "checklist_optional"
+    ],
+    "mission_steps": [
+      "Choose five safe things to spot, such as a color, shape, sign, tree, or bird.",
+      "Walk a familiar public route together.",
+      "Let each participant add one bonus item."
+    ],
+    "safety_notes": [
+      "Keep children supervised and use safe crossings."
+    ],
+    "memory_prompts": [
+      "Which discovery created the best conversation?"
+    ]
+  },
+  {
+    "id": "activity_014",
+    "name": "Outdoor sketch break",
+    "environment": "outdoor",
+    "activity_types": [
+      "creative",
+      "relaxation",
+      "nature"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "public_square",
+      "neighborhood"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "drawing",
+      "art",
+      "relaxation",
+      "outdoors"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Choose a comfortable public place and one subject.",
+      "Sketch the main shapes for at least ten minutes.",
+      "Add three written details you noticed while drawing."
+    ],
+    "safety_notes": [
+      "Sit or stand where you do not block paths or entrances."
+    ],
+    "memory_prompts": [
+      "What became easier to notice while sketching?"
+    ]
+  },
+  {
+    "id": "activity_015",
+    "name": "Cloud shape challenge",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "relaxation",
+      "games"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "neighborhood"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "clouds",
+      "imagination",
+      "nature",
+      "family"
+    ],
+    "requires_equipment": [
+      "blanket_optional"
+    ],
+    "mission_steps": [
+      "Choose a safe open view of the sky.",
+      "Find five cloud shapes or patterns.",
+      "Give each one a playful name or short story."
+    ],
+    "safety_notes": [
+      "Do not remain outside during thunderstorms or severe weather."
+    ],
+    "memory_prompts": [
+      "Which cloud shape was easiest to remember?"
+    ]
+  },
+  {
+    "id": "activity_016",
+    "name": "Architecture detail hunt",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "culture",
+      "photography"
+    ],
+    "location_types": [
+      "neighborhood",
+      "public_square",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 75,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "architecture",
+      "design",
+      "photography",
+      "walking"
+    ],
+    "requires_equipment": [
+      "phone_or_notebook_optional"
+    ],
+    "mission_steps": [
+      "Walk through a public area with varied buildings.",
+      "Find five details such as doors, windows, roofs, patterns, or materials.",
+      "Record the detail that seems most distinctive."
+    ],
+    "safety_notes": [
+      "Observe from public paths and respect private property."
+    ],
+    "memory_prompts": [
+      "Which detail would help you recognize the building later?"
+    ]
+  },
+  {
+    "id": "activity_017",
+    "name": "Tree bark comparison",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "creative"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "forest_path",
+      "neighborhood"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain",
+      "snow"
+    ],
+    "interests": [
+      "trees",
+      "nature",
+      "textures",
+      "drawing"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Find three accessible trees in a permitted area.",
+      "Compare bark color, pattern, and texture without removing material.",
+      "Sketch or describe the differences."
+    ],
+    "safety_notes": [
+      "Do not damage trees or leave permitted paths."
+    ],
+    "memory_prompts": [
+      "Which bark pattern was most distinctive?"
+    ]
+  },
+  {
+    "id": "activity_018",
+    "name": "Public-space color bingo",
+    "environment": "outdoor",
+    "activity_types": [
+      "games",
+      "walking",
+      "creative"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "colors",
+      "games",
+      "family",
+      "walking"
+    ],
+    "requires_equipment": [
+      "paper_or_phone_optional"
+    ],
+    "mission_steps": [
+      "Create a three-by-three grid of common colors.",
+      "Walk through a familiar public area and find one example of each.",
+      "Finish a row or the full grid."
+    ],
+    "safety_notes": [
+      "Stay in public areas and remain aware of traffic."
+    ],
+    "memory_prompts": [
+      "Which color was hardest to find?"
+    ]
+  },
+  {
+    "id": "activity_019",
+    "name": "Frisbee or ball game",
+    "environment": "outdoor",
+    "activity_types": [
+      "games",
+      "social"
+    ],
+    "location_types": [
+      "park",
+      "garden"
+    ],
+    "group_types": [
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "games",
+      "movement",
+      "social",
+      "family"
+    ],
+    "requires_equipment": [
+      "frisbee_or_ball"
+    ],
+    "mission_steps": [
+      "Choose an open permitted area.",
+      "Agree on a simple cooperative or competitive game.",
+      "Play for a comfortable amount of time and finish with one final round."
+    ],
+    "safety_notes": [
+      "Keep clear of roads, windows, and other park users."
+    ],
+    "memory_prompts": [
+      "Which moment from the game will you remember?"
+    ]
+  },
+  {
+    "id": "activity_020",
+    "name": "Outdoor reading break",
+    "environment": "outdoor",
+    "activity_types": [
+      "relaxation",
+      "creative"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "public_square",
+      "balcony"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "reading",
+      "relaxation",
+      "outdoors"
+    ],
+    "requires_equipment": [
+      "book_or_ereader"
+    ],
+    "mission_steps": [
+      "Choose a comfortable outdoor or semi-covered spot.",
+      "Read without notifications for at least twenty minutes.",
+      "Pause once to notice how the surroundings affect the experience."
+    ],
+    "safety_notes": [
+      "Choose a permitted place and protect books or electronics from weather."
+    ],
+    "memory_prompts": [
+      "What part of the setting made reading outdoors different?"
+    ]
+  },
+  {
+    "id": "activity_021",
+    "name": "Playground family challenge",
+    "environment": "outdoor",
+    "activity_types": [
+      "games",
+      "social"
+    ],
+    "location_types": [
+      "park"
+    ],
+    "group_types": [
+      "family"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "family",
+      "playground",
+      "games",
+      "movement"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Choose an age-appropriate public playground.",
+      "Create three playful challenges using permitted equipment or open space.",
+      "Let each participant choose a favorite challenge to repeat."
+    ],
+    "safety_notes": [
+      "Supervise children and follow posted playground guidance."
+    ],
+    "memory_prompts": [
+      "Which challenge should become a family tradition?"
+    ]
+  },
+  {
+    "id": "activity_022",
+    "name": "Seasonal change checkpoint",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "photography",
+      "walking"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "garden",
+      "forest_path"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain",
+      "snow"
+    ],
+    "interests": [
+      "seasons",
+      "nature",
+      "photography",
+      "memory"
+    ],
+    "requires_equipment": [
+      "phone_or_notebook_optional"
+    ],
+    "mission_steps": [
+      "Choose a familiar outdoor viewpoint.",
+      "Record three signs of the current season.",
+      "Plan to revisit the same broad area later."
+    ],
+    "safety_notes": [
+      "Use a familiar permitted location and dress for current conditions."
+    ],
+    "memory_prompts": [
+      "What seasonal change was most noticeable?"
+    ]
+  },
+  {
+    "id": "activity_023",
+    "name": "Neighborhood litter audit",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "practical"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 50,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "community",
+      "environment",
+      "walking",
+      "practical"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Walk a familiar public route.",
+      "Count visible litter by broad category without handling it.",
+      "Record one idea that could reduce the most common category."
+    ],
+    "safety_notes": [
+      "Do not touch sharp, hazardous, or unknown waste."
+    ],
+    "memory_prompts": [
+      "Which type of litter appeared most often?"
+    ]
+  },
+  {
+    "id": "activity_024",
+    "name": "Outdoor storytelling walk",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "creative",
+      "social"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "garden"
+    ],
+    "group_types": [
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "storytelling",
+      "walking",
+      "family",
+      "imagination"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Choose a familiar public route.",
+      "Take turns adding one sentence to a story at each chosen landmark.",
+      "Finish the story before returning."
+    ],
+    "safety_notes": [
+      "Keep attention on paths, crossings, and other users while speaking."
+    ],
+    "memory_prompts": [
+      "Which place changed the story most?"
+    ]
+  },
+  {
+    "id": "activity_025",
+    "name": "Bench journaling pause",
+    "environment": "outdoor",
+    "activity_types": [
+      "relaxation",
+      "creative"
+    ],
+    "location_types": [
+      "park",
+      "public_square",
+      "neighborhood"
+    ],
+    "group_types": [
+      "solo",
+      "couple"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "writing",
+      "relaxation",
+      "observation",
+      "memory"
+    ],
+    "requires_equipment": [
+      "notebook_or_phone"
+    ],
+    "mission_steps": [
+      "Choose a public bench or resting place.",
+      "Write five neutral observations about movement, sound, light, or weather.",
+      "Add one sentence about why the moment is worth remembering."
+    ],
+    "safety_notes": [
+      "Respect other people's privacy and avoid recording identifying details."
+    ],
+    "memory_prompts": [
+      "Which small detail best represented the moment?"
+    ]
+  },
+  {
+    "id": "activity_026",
+    "name": "Photo alphabet hunt",
+    "environment": "outdoor",
+    "activity_types": [
+      "photography",
+      "games",
+      "walking"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 75,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "photography",
+      "games",
+      "shapes",
+      "walking"
+    ],
+    "requires_equipment": [
+      "phone_or_camera"
+    ],
+    "mission_steps": [
+      "Look for objects or structures shaped like letters.",
+      "Photograph at least five different letters.",
+      "Arrange them into a short word after the walk."
+    ],
+    "safety_notes": [
+      "Photograph objects and structures rather than identifiable people."
+    ],
+    "memory_prompts": [
+      "Which letter was hardest to find?"
+    ]
+  },
+  {
+    "id": "activity_027",
+    "name": "Garden care round",
+    "environment": "outdoor",
+    "activity_types": [
+      "gardening",
+      "practical",
+      "nature"
+    ],
+    "location_types": [
+      "garden",
+      "balcony"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "gardening",
+      "plants",
+      "practical",
+      "nature"
+    ],
+    "requires_equipment": [
+      "basic_garden_tools_optional"
+    ],
+    "mission_steps": [
+      "Inspect plants for water needs and visible changes.",
+      "Complete one suitable care task.",
+      "Record what should be checked on the next visit."
+    ],
+    "safety_notes": [
+      "Use tools as intended and follow care guidance for the plants you own."
+    ],
+    "memory_prompts": [
+      "Which plant changed most since the previous check?"
+    ]
+  },
+  {
+    "id": "activity_028",
+    "name": "Sunrise or sunset color log",
+    "environment": "outdoor",
+    "activity_types": [
+      "nature",
+      "photography",
+      "relaxation"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "neighborhood",
+      "balcony"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "sky",
+      "photography",
+      "colors",
+      "relaxation"
+    ],
+    "requires_equipment": [
+      "phone_or_notebook_optional"
+    ],
+    "mission_steps": [
+      "Choose a familiar safe viewpoint during daylight transition.",
+      "Record three changes in color or light.",
+      "Leave before visibility or conditions become unsuitable."
+    ],
+    "safety_notes": [
+      "Avoid isolated unfamiliar places and remain aware of changing visibility."
+    ],
+    "memory_prompts": [
+      "Which color appeared for the shortest time?"
+    ]
+  },
+  {
+    "id": "activity_029",
+    "name": "Outdoor tabletop game",
+    "environment": "outdoor",
+    "activity_types": [
+      "games",
+      "social",
+      "relaxation"
+    ],
+    "location_types": [
+      "park",
+      "garden",
+      "balcony"
+    ],
+    "group_types": [
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "dry"
+    ],
+    "interests": [
+      "board_games",
+      "cards",
+      "social",
+      "outdoors"
+    ],
+    "requires_equipment": [
+      "portable_game"
+    ],
+    "mission_steps": [
+      "Choose a small portable game suitable for the group.",
+      "Set up at a permitted table or picnic spot.",
+      "Play one complete round or match."
+    ],
+    "safety_notes": [
+      "Secure loose components and leave the area clean."
+    ],
+    "memory_prompts": [
+      "How did playing outside change the game?"
+    ]
+  },
+  {
+    "id": "activity_030",
+    "name": "Three-landmark walking challenge",
+    "environment": "outdoor",
+    "activity_types": [
+      "walking",
+      "games",
+      "culture"
+    ],
+    "location_types": [
+      "neighborhood",
+      "park",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "walking",
+      "exploration",
+      "games",
+      "culture"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Choose three familiar public landmarks or features.",
+      "Walk between them using known safe routes.",
+      "Record one new detail at each stop."
+    ],
+    "safety_notes": [
+      "Use safe crossings and do not enter restricted areas."
+    ],
+    "memory_prompts": [
+      "Which stop revealed the most unexpected detail?"
+    ]
+  },
+  {
+    "id": "activity_031",
+    "name": "Covered walkway observation",
+    "environment": "sheltered",
+    "activity_types": [
+      "walking",
+      "relaxation"
+    ],
+    "location_types": [
+      "public_building",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold"
+    ],
+    "interests": [
+      "weather",
+      "walking",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Choose a permitted covered public area.",
+      "Walk slowly or pause to notice how the weather changes sound and movement.",
+      "Record three details."
+    ],
+    "safety_notes": [
+      "Do not travel if local conditions are unsafe and avoid damaged structures."
+    ],
+    "memory_prompts": [
+      "How did the shelter change the experience of the weather?"
+    ]
+  },
+  {
+    "id": "activity_032",
+    "name": "Porch or balcony weather journal",
+    "environment": "sheltered",
+    "activity_types": [
+      "creative",
+      "relaxation",
+      "nature"
+    ],
+    "location_types": [
+      "balcony",
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 10,
+    "maximum_minutes": 30,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "light_rain",
+      "heavy_rain",
+      "snow",
+      "unknown"
+    ],
+    "interests": [
+      "weather",
+      "writing",
+      "observation"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Observe from a protected private area.",
+      "Record wind, precipitation, light, and visible movement.",
+      "Compare the entry with a previous day if available."
+    ],
+    "safety_notes": [
+      "Remain fully sheltered during severe weather."
+    ],
+    "memory_prompts": [
+      "What changed most during the observation?"
+    ]
+  },
+  {
+    "id": "activity_033",
+    "name": "Window bird count",
+    "environment": "sheltered",
+    "activity_types": [
+      "nature",
+      "relaxation"
+    ],
+    "location_types": [
+      "home",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 10,
+    "maximum_minutes": 25,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "birds",
+      "nature",
+      "observation"
+    ],
+    "requires_equipment": [
+      "window_view"
+    ],
+    "mission_steps": [
+      "Choose one window view.",
+      "Count birds seen or heard for ten minutes.",
+      "Note behavior, colors, or sounds without needing species names."
+    ],
+    "safety_notes": [
+      "Keep windows closed when weather conditions are unsuitable."
+    ],
+    "memory_prompts": [
+      "What bird behavior or sound appeared most often?"
+    ]
+  },
+  {
+    "id": "activity_034",
+    "name": "Rain sound comparison",
+    "environment": "sheltered",
+    "activity_types": [
+      "nature",
+      "relaxation",
+      "creative"
+    ],
+    "location_types": [
+      "balcony",
+      "home",
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 10,
+    "maximum_minutes": 25,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "light_rain",
+      "heavy_rain"
+    ],
+    "interests": [
+      "rain",
+      "listening",
+      "mindfulness"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Listen from a dry sheltered location.",
+      "Compare rain sounds on three surfaces.",
+      "Describe the differences in rhythm or volume."
+    ],
+    "safety_notes": [
+      "Remain sheltered and avoid exposed areas during storms."
+    ],
+    "memory_prompts": [
+      "Which surface made the most memorable sound?"
+    ]
+  },
+  {
+    "id": "activity_035",
+    "name": "Sheltered architecture sketch",
+    "environment": "sheltered",
+    "activity_types": [
+      "creative",
+      "culture"
+    ],
+    "location_types": [
+      "public_building",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 50,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold"
+    ],
+    "interests": [
+      "architecture",
+      "drawing",
+      "culture"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Choose a permitted sheltered viewpoint.",
+      "Sketch one visible architectural feature.",
+      "Add notes about its shape, material, or purpose."
+    ],
+    "safety_notes": [
+      "Do not block entrances, exits, or pedestrian routes."
+    ],
+    "memory_prompts": [
+      "Which feature was easiest to recognize in the sketch?"
+    ]
+  },
+  {
+    "id": "activity_036",
+    "name": "Covered-area family spotting game",
+    "environment": "sheltered",
+    "activity_types": [
+      "games",
+      "social"
+    ],
+    "location_types": [
+      "public_building",
+      "public_square"
+    ],
+    "group_types": [
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold"
+    ],
+    "interests": [
+      "family",
+      "games",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Choose five safe visible things to spot from shelter.",
+      "Take turns finding an example.",
+      "Add one item for a future outdoor walk."
+    ],
+    "safety_notes": [
+      "Use only permitted public areas and keep children supervised."
+    ],
+    "memory_prompts": [
+      "Which spotted item should become a future mission?"
+    ]
+  },
+  {
+    "id": "activity_037",
+    "name": "Cafe window neighborhood journal",
+    "environment": "sheltered",
+    "activity_types": [
+      "relaxation",
+      "creative",
+      "social"
+    ],
+    "location_types": [
+      "public_building"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold"
+    ],
+    "interests": [
+      "writing",
+      "culture",
+      "relaxation",
+      "people_watching"
+    ],
+    "requires_equipment": [
+      "notebook_or_phone",
+      "purchase_if_required"
+    ],
+    "mission_steps": [
+      "Choose a legal public venue with an outside view.",
+      "Write neutral observations about weather, traffic, buildings, and movement.",
+      "Save one sentence as a memory of the place."
+    ],
+    "safety_notes": [
+      "Follow venue rules and do not record identifying details about people."
+    ],
+    "memory_prompts": [
+      "Which outside detail defined the view today?"
+    ]
+  },
+  {
+    "id": "activity_038",
+    "name": "Public shelter reading break",
+    "environment": "sheltered",
+    "activity_types": [
+      "relaxation",
+      "creative"
+    ],
+    "location_types": [
+      "public_building",
+      "public_square"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 75,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold"
+    ],
+    "interests": [
+      "reading",
+      "relaxation",
+      "outdoors"
+    ],
+    "requires_equipment": [
+      "book_or_ereader"
+    ],
+    "mission_steps": [
+      "Choose a permitted sheltered public spot.",
+      "Read without notifications for at least twenty minutes.",
+      "Pause once to notice the view or weather."
+    ],
+    "safety_notes": [
+      "Do not block access routes and protect belongings from weather."
+    ],
+    "memory_prompts": [
+      "How did the sheltered setting affect the reading experience?"
+    ]
+  },
+  {
+    "id": "activity_039",
+    "name": "Cooperative board game and next-walk mission",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "games",
+      "social",
+      "creative"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "board_games",
+      "family",
+      "planning"
+    ],
+    "requires_equipment": [
+      "cooperative_board_game"
+    ],
+    "mission_steps": [
+      "Play one cooperative game together.",
+      "Name one teamwork behavior that helped.",
+      "Create a three-item observation mission for the next walk."
+    ],
+    "safety_notes": [
+      "Use age-appropriate games and components."
+    ],
+    "memory_prompts": [
+      "What teamwork behavior should you repeat outside?"
+    ]
+  },
+  {
+    "id": "activity_040",
+    "name": "Neighborhood map from memory",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "creative",
+      "culture"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "mapping",
+      "drawing",
+      "memory",
+      "planning"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Draw familiar public landmarks from memory.",
+      "Connect them with broad route lines.",
+      "Mark one area to observe during a future outing without adding exact private addresses."
+    ],
+    "safety_notes": [
+      "Do not record sensitive or private locations."
+    ],
+    "memory_prompts": [
+      "Which part of the area was hardest to remember?"
+    ]
+  },
+  {
+    "id": "activity_041",
+    "name": "Local adventure photo album",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "photography",
+      "creative",
+      "relaxation"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "photography",
+      "memory",
+      "organization"
+    ],
+    "requires_equipment": [
+      "existing_photos_optional"
+    ],
+    "mission_steps": [
+      "Choose five photos from previous local outings.",
+      "Write one factual caption for each.",
+      "Select one theme for a future photo walk."
+    ],
+    "safety_notes": [
+      "Remove location metadata and private information before sharing images."
+    ],
+    "memory_prompts": [
+      "Which place or activity would you like to revisit?"
+    ]
+  },
+  {
+    "id": "activity_042",
+    "name": "Create a neighborhood bingo card",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "games",
+      "creative"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 50,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "games",
+      "drawing",
+      "planning",
+      "family"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Choose nine safe observable items.",
+      "Draw or write them in a grid.",
+      "Save the card for the next suitable walk."
+    ],
+    "safety_notes": [
+      "Avoid private, hazardous, or location-sensitive targets."
+    ],
+    "memory_prompts": [
+      "Which square do you expect to complete last?"
+    ]
+  },
+  {
+    "id": "activity_043",
+    "name": "Family memory trivia",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "games",
+      "social",
+      "creative"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "family",
+      "friends",
+      "couple"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "family",
+      "memory",
+      "games",
+      "storytelling"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Write five questions about past local outings.",
+      "Take turns answering without checking photos first.",
+      "Choose one memory to revisit outside."
+    ],
+    "safety_notes": [
+      "Keep questions respectful and allow participants to skip any question."
+    ],
+    "memory_prompts": [
+      "Which shared memory was easiest to recall?"
+    ]
+  },
+  {
+    "id": "activity_044",
+    "name": "Nature observation card workshop",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "creative",
+      "nature",
+      "games"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 25,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "nature",
+      "crafts",
+      "planning",
+      "family"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Create cards for colors, shapes, sounds, or behaviors to observe.",
+      "Keep labels broad so expert identification is not required.",
+      "Take the cards on a future outing."
+    ],
+    "safety_notes": [
+      "Use age-appropriate craft materials."
+    ],
+    "memory_prompts": [
+      "Which card will be most fun to use outside?"
+    ]
+  },
+  {
+    "id": "activity_045",
+    "name": "Local landmark story",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "creative",
+      "culture"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "storytelling",
+      "writing",
+      "memory",
+      "culture"
+    ],
+    "requires_equipment": [
+      "paper_or_phone_optional"
+    ],
+    "mission_steps": [
+      "Choose a familiar public landmark or feature.",
+      "Write a short fictional story set there.",
+      "List three visible details to check on a future visit."
+    ],
+    "safety_notes": [
+      "Do not include private information about real people."
+    ],
+    "memory_prompts": [
+      "Which real detail should you verify first?"
+    ]
+  },
+  {
+    "id": "activity_046",
+    "name": "Weather window time series",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "nature",
+      "creative",
+      "practical"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 20,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "weather",
+      "science",
+      "observation",
+      "writing"
+    ],
+    "requires_equipment": [
+      "notebook_optional"
+    ],
+    "mission_steps": [
+      "Observe the same window view three times.",
+      "Record light, precipitation, and visible movement.",
+      "Compare the entries without predicting future weather."
+    ],
+    "safety_notes": [
+      "Keep windows closed during unsafe conditions."
+    ],
+    "memory_prompts": [
+      "Which feature changed most between observations?"
+    ]
+  },
+  {
+    "id": "activity_047",
+    "name": "Prepare a seasonal checklist",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "creative",
+      "nature",
+      "practical"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "seasons",
+      "planning",
+      "nature",
+      "family"
+    ],
+    "requires_equipment": [
+      "paper_or_phone"
+    ],
+    "mission_steps": [
+      "List five seasonal details that are safe to observe.",
+      "Add one movement, photo, or game idea.",
+      "Save the checklist for the next outing."
+    ],
+    "safety_notes": [
+      "Do not include goals that require hazardous weather or restricted areas."
+    ],
+    "memory_prompts": [
+      "Which checklist item is most likely to change soon?"
+    ]
+  },
+  {
+    "id": "activity_048",
+    "name": "Puzzle night and outdoor theme challenge",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "games",
+      "social",
+      "creative"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family",
+      "friends"
+    ],
+    "minimum_minutes": 30,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "puzzles",
+      "family",
+      "planning",
+      "observation"
+    ],
+    "requires_equipment": [
+      "jigsaw_puzzle"
+    ],
+    "mission_steps": [
+      "Complete part or all of a puzzle.",
+      "Choose one visual theme from the image.",
+      "Plan to find that theme during a future outdoor activity."
+    ],
+    "safety_notes": [
+      "Use age-appropriate puzzle pieces."
+    ],
+    "memory_prompts": [
+      "Which visual theme should guide the next outing?"
+    ]
+  },
+  {
+    "id": "activity_049",
+    "name": "Draw an outdoor view from memory",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "creative",
+      "relaxation"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "drawing",
+      "memory",
+      "observation"
+    ],
+    "requires_equipment": [
+      "paper_and_pencil"
+    ],
+    "mission_steps": [
+      "Draw a familiar outdoor view without using a photo.",
+      "Circle uncertain details.",
+      "Check those details during a future safe visit."
+    ],
+    "safety_notes": [
+      "Do not add exact private addresses or sensitive details."
+    ],
+    "memory_prompts": [
+      "Which part of the view was hardest to remember?"
+    ]
+  },
+  {
+    "id": "activity_050",
+    "name": "Outdoor equipment readiness check",
+    "environment": "indoor_bridge",
+    "activity_types": [
+      "practical",
+      "walking",
+      "cycling"
+    ],
+    "location_types": [
+      "home"
+    ],
+    "group_types": [
+      "solo",
+      "couple",
+      "family"
+    ],
+    "minimum_minutes": 15,
+    "maximum_minutes": 45,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "heavy_rain",
+      "strong_wind",
+      "very_hot",
+      "very_cold",
+      "unknown"
+    ],
+    "interests": [
+      "organization",
+      "planning",
+      "outdoors",
+      "practical"
+    ],
+    "requires_equipment": [
+      "existing_outdoor_equipment"
+    ],
+    "mission_steps": [
+      "Inspect simple equipment used on future outings.",
+      "Clean, charge, or organize suitable items.",
+      "Prepare a short take-with-you checklist."
+    ],
+    "safety_notes": [
+      "Follow manufacturer instructions and do not use damaged equipment."
+    ],
+    "memory_prompts": [
+      "Which item is easiest to forget before an outing?"
+    ]
+  }
+]

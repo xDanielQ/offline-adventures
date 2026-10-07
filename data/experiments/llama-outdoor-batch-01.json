@@ -1,0 +1,312 @@
+[
+  {
+    "id": "activity_001",
+    "name": "Nature Sound Walk",
+    "environment": "outdoor",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "listening"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a quiet spot in a park or nature reserve.",
+      "Close your eyes and listen to the sounds around you.",
+      "Try to identify the different sounds you hear."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid disturbing wildlife."
+    ],
+    "memory_prompts": [
+      "What was the most interesting sound you heard?"
+    ]
+  },
+  {
+    "id": "activity_002",
+    "name": "Street Art Scavenger Hunt",
+    "environment": "outdoor",
+    "minimum_minutes": 45,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "strong_wind"
+    ],
+    "interests": [
+      "art",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a street art mural in your neighborhood.",
+      "Take a photo of the mural and note its location.",
+      "Research the artist and learn more about their work."
+    ],
+    "safety_notes": [
+      "Be respectful of private property and avoid disturbing the artist."
+    ],
+    "memory_prompts": [
+      "What was the most striking feature of the mural?"
+    ]
+  },
+  {
+    "id": "activity_003",
+    "name": "Wildflower Identification",
+    "environment": "outdoor",
+    "minimum_minutes": 20,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a field or meadow with wildflowers.",
+      "Identify the different types of flowers and note their characteristics.",
+      "Research the flowers and learn more about their habitats and uses."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid disturbing the flowers."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the wildflowers?"
+    ]
+  },
+  {
+    "id": "activity_004",
+    "name": "Bird Watching",
+    "environment": "outdoor",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "listening"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a bird-watching spot in a park or nature reserve.",
+      "Bring binoculars and a field guide to help identify the birds.",
+      "Note the different species you see and their behaviors."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid disturbing the birds."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the birds?"
+    ]
+  },
+  {
+    "id": "activity_005",
+    "name": "Local History Walk",
+    "environment": "outdoor",
+    "minimum_minutes": 45,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "strong_wind"
+    ],
+    "interests": [
+      "history",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a historic landmark or building in your neighborhood.",
+      "Research the history of the landmark and note its significance.",
+      "Take a photo of the landmark and note its location."
+    ],
+    "safety_notes": [
+      "Be respectful of private property and avoid disturbing the landmark."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the landmark?"
+    ]
+  },
+  {
+    "id": "activity_006",
+    "name": "Seasonal Fruit Tasting",
+    "environment": "outdoor",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "food",
+      "tasting"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a fruit stand or market in your neighborhood.",
+      "Taste different seasonal fruits and note their flavors and textures.",
+      "Research the fruits and learn more about their cultivation and uses."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid disturbing the vendors."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the fruits?"
+    ]
+  },
+  {
+    "id": "activity_007",
+    "name": "Public Art Observation",
+    "environment": "outdoor",
+    "minimum_minutes": 20,
+    "maximum_minutes": 40,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "art",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a public art installation in your neighborhood.",
+      "Note the different materials and techniques used in the installation.",
+      "Research the artist and learn more about their work."
+    ],
+    "safety_notes": [
+      "Be respectful of private property and avoid disturbing the installation."
+    ],
+    "memory_prompts": [
+      "What was the most striking feature of the installation?"
+    ]
+  },
+  {
+    "id": "activity_008",
+    "name": "Community Garden Visit",
+    "environment": "outdoor",
+    "minimum_minutes": 30,
+    "maximum_minutes": 60,
+    "energy_levels": [
+      "low",
+      "medium"
+    ],
+    "weather": [
+      "dry",
+      "light_rain"
+    ],
+    "interests": [
+      "nature",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a community garden in your neighborhood.",
+      "Note the different plants and flowers in the garden.",
+      "Research the garden and learn more about its history and purpose."
+    ],
+    "safety_notes": [
+      "Be mindful of your surroundings and avoid disturbing the gardeners."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the garden?"
+    ]
+  },
+  {
+    "id": "activity_009",
+    "name": "Street Photography",
+    "environment": "outdoor",
+    "minimum_minutes": 45,
+    "maximum_minutes": 90,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "strong_wind"
+    ],
+    "interests": [
+      "photography",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a street scene in your neighborhood.",
+      "Take photos of the scene and note the different elements.",
+      "Research the scene and learn more about its context and significance."
+    ],
+    "safety_notes": [
+      "Be respectful of private property and avoid disturbing the people in the scene."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you captured in your photos?"
+    ]
+  },
+  {
+    "id": "activity_010",
+    "name": "Local Memory Mapping",
+    "environment": "outdoor",
+    "minimum_minutes": 60,
+    "maximum_minutes": 120,
+    "energy_levels": [
+      "medium",
+      "high"
+    ],
+    "weather": [
+      "dry",
+      "strong_wind"
+    ],
+    "interests": [
+      "history",
+      "observation"
+    ],
+    "requires_equipment": [],
+    "mission_steps": [
+      "Find a local landmark or building with historical significance.",
+      "Create a map of the landmark and note its location and significance.",
+      "Research the landmark and learn more about its history and purpose."
+    ],
+    "safety_notes": [
+      "Be respectful of private property and avoid disturbing the landmark."
+    ],
+    "memory_prompts": [
+      "What was the most interesting thing you learned about the landmark?"
+    ]
+  }
+]

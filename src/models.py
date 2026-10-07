@@ -26,10 +26,49 @@ class Weather(StrEnum):
     UNKNOWN = "unknown"
 
 
+class ActivityType(StrEnum):
+    WALKING = "walking"
+    RUNNING = "running"
+    CYCLING = "cycling"
+    PHOTOGRAPHY = "photography"
+    NATURE = "nature"
+    CULTURE = "culture"
+    SOCIAL = "social"
+    GAMES = "games"
+    GARDENING = "gardening"
+    CREATIVE = "creative"
+    RELAXATION = "relaxation"
+    PRACTICAL = "practical"
+
+
+class LocationType(StrEnum):
+    NEIGHBORHOOD = "neighborhood"
+    PARK = "park"
+    GARDEN = "garden"
+    PUBLIC_SQUARE = "public_square"
+    MARKET = "market"
+    FOREST_PATH = "forest_path"
+    PUBLIC_BUILDING = "public_building"
+    BALCONY = "balcony"
+    HOME = "home"
+    ANY = "any"
+
+
+class GroupType(StrEnum):
+    SOLO = "solo"
+    COUPLE = "couple"
+    FAMILY = "family"
+    FRIENDS = "friends"
+    ANY = "any"
+
+
 class Activity(BaseModel):
     id: str = Field(pattern=r"^activity_[0-9]{3}$")
     name: str = Field(min_length=3, max_length=100)
     environment: Environment
+    activity_types: list[ActivityType] = Field(min_length=1)
+    location_types: list[LocationType] = Field(min_length=1)
+    group_types: list[GroupType] = Field(min_length=1)
     minimum_minutes: int = Field(ge=5, le=240)
     maximum_minutes: int = Field(ge=5, le=240)
     energy_levels: list[EnergyLevel] = Field(min_length=1)
@@ -43,9 +82,7 @@ class Activity(BaseModel):
     @model_validator(mode="after")
     def validate_duration(self) -> "Activity":
         if self.minimum_minutes > self.maximum_minutes:
-            raise ValueError(
-                "minimum_minutes cannot exceed maximum_minutes"
-            )
+            raise ValueError("minimum_minutes cannot exceed maximum_minutes")
         return self
 
 
@@ -53,6 +90,8 @@ class ActivityRequest(BaseModel):
     available_minutes: int = Field(ge=5, le=240)
     energy_level: EnergyLevel
     weather: Weather
+    location_types: list[LocationType] = Field(default_factory=lambda: [LocationType.ANY])
+    group_type: GroupType = GroupType.ANY
     interests: list[str] = Field(default_factory=list)
     excluded_activity_ids: set[str] = Field(default_factory=set)
 
@@ -64,10 +103,7 @@ class ActivityRecommendation(BaseModel):
 
 class RecommendationResult(BaseModel):
     primary: ActivityRecommendation
-    alternatives: list[ActivityRecommendation] = Field(
-        min_length=2,
-        max_length=2,
-    )
+    alternatives: list[ActivityRecommendation] = Field(min_length=2, max_length=2)
 
     @model_validator(mode="after")
     def validate_unique_activity_ids(self) -> "RecommendationResult":
@@ -75,8 +111,10 @@ class RecommendationResult(BaseModel):
             self.primary.activity_id,
             *(item.activity_id for item in self.alternatives),
         ]
-
         if len(identifiers) != len(set(identifiers)):
             raise ValueError("recommended activity IDs must be unique")
-
         return self
+
+
+class ActivityCatalog(BaseModel):
+    activities: list[Activity] = Field(min_length=1, max_length=50)

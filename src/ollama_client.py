@@ -24,12 +24,8 @@ def _activity_payload(activity: Activity) -> dict[str, Any]:
         "environment": activity.environment.value,
         "minimum_minutes": activity.minimum_minutes,
         "maximum_minutes": activity.maximum_minutes,
-        "energy_levels": [
-            level.value for level in activity.energy_levels
-        ],
-        "weather": [
-            condition.value for condition in activity.weather
-        ],
+        "energy_levels": [level.value for level in activity.energy_levels],
+        "weather": [condition.value for condition in activity.weather],
         "interests": activity.interests,
         "safety_notes": activity.safety_notes,
     }
@@ -46,10 +42,7 @@ def recommend_activities(
 
     user_payload = {
         "request": request.model_dump(mode="json"),
-        "candidates": [
-            _activity_payload(activity)
-            for activity in candidates
-        ],
+        "candidates": [_activity_payload(activity) for activity in candidates],
     }
 
     body = {
@@ -93,21 +86,14 @@ def recommend_activities(
         content = response.json()["message"]["content"]
         result = RecommendationResult.model_validate_json(content)
     except (KeyError, TypeError, ValueError) as exc:
-        raise OllamaError(
-            "Ollama returned an invalid response"
-        ) from exc
+        raise OllamaError("Ollama returned an invalid response") from exc
 
     returned_ids = {
         result.primary.activity_id,
-        *(
-            item.activity_id
-            for item in result.alternatives
-        ),
+        *(item.activity_id for item in result.alternatives),
     }
 
     if not returned_ids.issubset(candidate_ids):
-        raise OllamaError(
-            "Ollama returned an activity outside the candidate list"
-        )
+        raise OllamaError("Ollama returned an activity outside the candidate list")
 
     return result
