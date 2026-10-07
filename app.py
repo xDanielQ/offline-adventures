@@ -45,10 +45,18 @@ def build_candidate_pool(
     return sampled, history_reset
 
 
-def show_activity(activity: Activity, reason: str, heading: str) -> None:
+def show_activity(
+    activity: Activity,
+    reason: str,
+    personalized_twist: str,
+    heading: str,
+) -> None:
     st.subheader(heading)
     st.markdown(f"### {activity.name}")
     st.write(reason)
+
+    st.markdown("**Local AI twist**")
+    st.info(personalized_twist)
 
     left, middle, right = st.columns(3)
     with left:
@@ -231,14 +239,24 @@ def main() -> None:
     st.success("Recommendation selected locally with llama3.1:8b-instruct-q4_K_M.")
 
     primary = candidates_by_id[result.primary.activity_id]
-    show_activity(primary, result.primary.reason, "Your adventure")
+    show_activity(
+        primary,
+        result.primary.reason,
+        result.primary.personalized_twist,
+        "Your adventure",
+    )
 
     st.divider()
     st.subheader("Alternatives")
     for index, recommendation in enumerate(result.alternatives, start=1):
         activity = candidates_by_id[recommendation.activity_id]
         with st.expander(f"Alternative {index}: {activity.name}"):
-            show_activity(activity, recommendation.reason, "Another option")
+            show_activity(
+                activity,
+                recommendation.reason,
+                recommendation.personalized_twist,
+                "Another option",
+            )
 
 
 if __name__ == "__main__":

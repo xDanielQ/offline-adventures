@@ -102,9 +102,17 @@ class ActivityRecommendation(BaseModel):
         min_length=20,
         max_length=300,
         description=(
-            "One natural English sentence explaining why the activity "
-            "matches the user's time, energy, weather, location, group, "
-            "or interests. Never return JSON field names or a list of keys."
+            "One natural English sentence explaining why the activity matches "
+            "the user's request. Never return JSON field names or a list of keys."
+        ),
+    )
+    personalized_twist: str = Field(
+        min_length=20,
+        max_length=240,
+        description=(
+            "One concrete English sentence adding a playful personalized variation "
+            "without changing place, weather, time, equipment, safety, or core activity. "
+            "Never suggest bringing or using a laptop or computer."
         ),
     )
 
