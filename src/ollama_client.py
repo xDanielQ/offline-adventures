@@ -41,8 +41,22 @@ def recommend_activities(
     candidate_ids = {activity.id for activity in candidates}
 
     user_payload = {
+        "task": (
+            "Select exactly one primary activity and exactly two alternatives. "
+            "Use only activity IDs from candidates."
+        ),
+        "reason_rules": [
+            "Write one natural English sentence for every reason.",
+            "Use between 12 and 30 words.",
+            "Explain a real match with the request.",
+            "Mention the activity or its relevant benefit.",
+            "Do not list JSON keys or field names.",
+            "Do not return comma-separated request properties.",
+            "Do not invent places, weather, equipment, or safety claims.",
+        ],
         "request": request.model_dump(mode="json"),
         "candidates": [_activity_payload(activity) for activity in candidates],
+        "response_schema": (RecommendationResult.model_json_schema()),
     }
 
     body = {
@@ -53,11 +67,16 @@ def recommend_activities(
             {
                 "role": "system",
                 "content": (
-                    "You rank a controlled catalog of safe activities. "
-                    "Select only IDs present in candidates. "
+                    "You are the local recommendation engine for Offline Adventures. "
+                    "Rank only the supplied candidate activities. "
+                    "Return one primary activity and exactly two alternatives. "
+                    "Every activity ID must come from candidates. "
+                    "For every reason, write one natural English sentence of "
+                    "12 to 30 words. Explain why that specific activity fits the "
+                    "user's request. Never list JSON field names. "
                     "Do not invent activities, places, weather, equipment, "
                     "distances, health advice, or safety claims. "
-                    "Return valid JSON matching the supplied schema."
+                    "Return only JSON matching the supplied schema."
                 ),
             },
             {

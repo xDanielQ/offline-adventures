@@ -98,7 +98,15 @@ class ActivityRequest(BaseModel):
 
 class ActivityRecommendation(BaseModel):
     activity_id: str = Field(pattern=r"^activity_[0-9]{3}$")
-    reason: str = Field(min_length=10, max_length=300)
+    reason: str = Field(
+        min_length=20,
+        max_length=300,
+        description=(
+            "One natural English sentence explaining why the activity "
+            "matches the user's time, energy, weather, location, group, "
+            "or interests. Never return JSON field names or a list of keys."
+        ),
+    )
 
 
 class RecommendationResult(BaseModel):
