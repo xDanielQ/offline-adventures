@@ -14,3 +14,6 @@ data/photos/
 
 # Local AI agent configuration
 .agents/
+
+# Python package build metadata
+*.egg-info/

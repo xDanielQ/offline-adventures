@@ -1,7 +1,0 @@
-httpx>=0.27
-pydantic>=2
-streamlit>=1.65
-
-[dev]
-pytest>=8
-ruff>=0.11
