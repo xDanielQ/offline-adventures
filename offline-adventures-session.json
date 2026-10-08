@@ -1,0 +1,85 @@
+{
+  "title": "Building Offline Adventures with Local Open-Weight AI",
+  "summary": "A concise record of the main engineering decisions behind Offline Adventures: a curated activity catalog, deterministic constraints, local Ollama inference, Pydantic structured output, recommendation diversity, and personalized mission twists.",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Build a local-first AI activity planner for the Hacktoberfest Touch Grass challenge."
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "The selected architecture keeps hard constraints deterministic and uses a local open-weight model only for semantic ranking, explanations, and personalized mission twists."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "How was the activity catalog designed?"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "An initial LLM-generated catalog experiment produced repetitive content. The final solution uses 50 curated and validated activities: 30 outdoor, 8 sheltered, and 12 indoor bridge."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "How is the local model constrained?"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "Python filters activities by time, weather, energy, place, and group. Ollama receives only approved candidates. Pydantic validates three unique candidate IDs, natural explanations, and personalized twists."
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "What evidence supports the completed prototype?"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "The public repository includes an MIT license, reproducible setup instructions, 19 passing tests, a validated catalog, a real local-model smoke test, and a Streamlit interface that works on the local network."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "repository": "https://github.com/xDanielQ/offline-adventures",
+    "ai_assisted": true,
+    "model": "llama3.1:8b-instruct-q4_K_M",
+    "runtime": "Ollama",
+    "application": "Streamlit"
+  }
+}

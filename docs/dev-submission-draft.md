@@ -18,7 +18,7 @@ The interface is available through Streamlit on the local network, so I can open
 
 ## Demo
 
-**Demo video:** `<DEMO_VIDEO_URL>`
+**Demo video:** `https://youtu.be/z00-rhXgSLA`
 
 Tested scenarios:
 
@@ -93,12 +93,15 @@ Open tooling also made the failures visible. I could inspect candidate lists, va
 
 ## My Agent Session
 
-`{% agent_session <DEVRELAY_SESSION_ID_OR_SLUG> %}`
+https://dev.to/agent_sessions/building-offline-adventures-with-local-open-weight-ai-3rciyc
+
+`{% agent_session building-offline-adventures-with-local-open-weight-ai-3rciyc %}`
 
 The session documents the design decisions, catalog experiment, structured-output validation, local-model integration, and the choice to keep safety constraints deterministic.
 
 ## Prize Categories
 
 I am entering the overall Hacktoberfest Open-Source AI Challenge: Week 1, Touch Grass category.
+
 
 

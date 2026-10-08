@@ -1,0 +1,65 @@
+devrelay 0.1.19 ÔÇö unified DEV.to & MLH gateway
+
+USAGE:
+    devrelay [COMMAND | SUBCOMMAND]
+
+DEV.TO API SUBCOMMANDS:
+    search <query>                                Semantic article search
+    articles [list|latest|me|get|by-path|create|update|unpublish]
+    comments [list|by-id]
+    users [me|get|by-username]
+    tags [list|get|followed]
+    followers
+    readinglist
+    orgs [get|users|articles]
+    pages [list|get]
+    sessions [list|get|submit|presign|raw-url]
+    events [list|get]
+    concepts [list|get|articles|search]
+    api <method> <path> [params_json] [body_json]
+
+GATEWAY COMMANDS:
+    --login           Connect to MLH with Authorization Code + S256 PKCE (alias: login)
+    --auth-status     Read MLH identity and linked DEV profile as one JSON object (alias: status)
+    --profile         Read the connected user's safe MLH profile
+    --events          List MLH events visible to the connected user
+    --disconnect      Revoke and remove the stored MLH authorization (aliases: logout, disconnect)
+    --stdio           Run the MCP server over stdio (how AI hosts launch it)
+    --tray            Run the desktop system tray app
+    --check-update    Check for a newer gateway release and report
+    --self-update     Check, then download and install if one is available
+    --sync-skills     Refresh agent skills from https://devrelay.com/v1/skills.json
+    --export-skills   Package skills as .zip bundles for Claude Desktop upload
+    --doctor          Diagnose install, credentials, and client wiring
+    --feedback [--category bug|idea|praise|other] <message>
+                      Send feedback about DevRelay to the team (alias: feedback)
+    telemetry [on|off|detailed|status|show]
+                      Anonymous usage telemetry: on (basic) by default, off,
+                      or detailed (adds per-tool-call events); show prints
+                      the last events sent
+    --version, -V     Print the version
+    --help, -h        Print this message
+
+With no command on macOS or Windows, starts the system-tray app.
+
+ENVIRONMENT:
+    DEV_API_BASE_URL                  Override the DEV-surface (Core proxy) base URL
+    MLH_ACCESS_TOKEN                  MLH OAuth token
+    DEVRELAY_BASE_URL                 Base URL for updates and skills
+    DEVRELAY_DISABLE_AUTO_UPDATE      Set to 1 to disable update checks
+    DEVRELAY_UPDATE_INTERVAL_SECS     Seconds between opportunistic update
+                                      checks on gateway launch (default 86400)
+    DEVRELAY_SKILLS_AUTO_SYNC         Set to 0 to disable skill syncing
+    DEVRELAY_SKILLS_DIR               Install to this directory only, replacing
+                                      the ~/.claude and ~/.agents defaults
+    DEVRELAY_SKILLS_DIRS              Extra skill directories to also install to
+                                      (;-separated), in addition to the defaults
+    DO_NOT_TRACK                      Set to 1 to turn telemetry off and disable
+                                      update checks
+
+Skills install to both ~/.claude/skills (Claude Code) and ~/.agents/skills
+(Gemini CLI and other .agents-convention hosts), plus ~/.gemini/config/skills
+when Antigravity 2.0 is installed. Directories that are symlinks to one another
+are written once. Claude Desktop loads skills from
+your Claude account rather than from disk ÔÇö see --export-skills.
+
