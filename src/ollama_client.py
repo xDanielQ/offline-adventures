@@ -45,6 +45,9 @@ def recommend_activities(
             "Make each twist concrete, playful, and relevant to the user's interests.",
             "Keep the candidate's core activity, place, weather, time, and equipment.",
             "Do not add purchases, health advice, risky behavior, or exact locations.",
+            "Never suggest bringing or using a laptop or computer.",
+            "Only mention equipment already listed in the candidate.",
+            "Keep screen use brief and directly connected with completing the activity.",
         ],
         "request": request.model_dump(mode="json"),
         "candidates": [_activity_payload(activity) for activity in candidates],
@@ -67,6 +70,9 @@ def recommend_activities(
                     "time, equipment, and safety boundaries. Do not invent places, "
                     "equipment, distances, health advice, or safety claims. Return only "
                     "JSON matching the supplied schema."
+                    "Never suggest bringing or using a laptop or computer. "
+                    "Only use equipment already declared by the candidate. "
+                    "Keep any phone or camera use brief and directly related to the mission. "
                 ),
             },
             {"role": "user", "content": json.dumps(user_payload)},
